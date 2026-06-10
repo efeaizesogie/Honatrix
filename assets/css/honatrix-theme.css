@@ -1,0 +1,183 @@
+/* =============================================
+   HONATRIX BLACK & RED THEME OVERRIDES
+   Primary Red:  #d81324
+   Dark Red:     #b00f1d
+   Black:        #0a0a0a
+   Dark bg:      #111111
+   ============================================= */
+
+/* --- Logo size fix --- */
+.logo img { height: 60px !important; width: auto !important; object-fit: contain; }
+.footlogo img { max-height: 70px !important; width: auto !important; object-fit: contain; }
+
+/* --- Top header strip: black bg --- */
+.hdr-topstrip,
+.site-navigation .book-ticket-button a,
+.nivo-directionNav a:hover,
+.hdr-topstrip { background: #0a0a0a !important; }
+
+.header-top-area-left { background: #0a0a0a !important; }
+.header-top-area-left .heade-top-area-mail,
+.header-top-area-left .heade-top-area-mail i { background: #0a0a0a !important; }
+.header-top-area-left::before { background: #0a0a0a !important; }
+.header-top-area-left::after { border-top-color: #0a0a0a !important; }
+
+/* --- Header area: white bg (logo area) --- */
+.header-area, .header-area .container, .logo, .hdr-topstrip .container::before {
+    background: #ffffff !important;
+}
+
+/* --- Nav menu bar: black --- */
+.header_menu_area, .site-navigation ul ul { background: #0a0a0a !important; }
+
+/* --- Nav text: white; hover/active: red --- */
+.site-navigation a { color: #ffffff !important; }
+.site-navigation ul.nav-menu .current_page_item > a,
+.site-navigation ul.nav-menu .current-menu-item > a,
+.site-navigation ul.nav-menu .current_page_ancestor > a,
+.site-navigation ul.nav-menu .current-menu-ancestor > a,
+.site-navigation .nav-menu a:hover,
+.site-navigation .nav-menu a:focus,
+.site-navigation .nav-menu ul a:hover,
+.site-navigation ul li a:hover,
+.site-navigation ul li.current_page_parent ul.sub-menu li.current-menu-item a,
+.site-navigation ul li.current_page_parent ul.sub-menu li a:hover,
+.site-navigation ul li.current-menu-item ul.sub-menu li a:hover { color: #d81324 !important; }
+
+/* --- Primary red accent (replaces #ff5e15) --- */
+a { color: #d81324; }
+a:hover { color: #0a0a0a; }
+
+#back-top i,
+.morebutton,
+a.ReadMoreBtn,
+a.blogreadmore,
+.owl-prev, .owl-next,
+#commentform input#submit,
+.wpcf7 input[type='submit'],
+nav.pagination .page-numbers.current,
+.nivo-caption h5,
+.owl-controls .owl-dot,
+.RightNavMenu .container { background-color: #d81324 !important; color: #fff !important; }
+
+.owl-prev:hover, .owl-next:hover { background-color: #b00f1d !important; }
+
+/* --- Accent color for icons, highlights --- */
+.header_contact_info i,
+.newsInfo .ReadMoreBtn i,
+.team_plus i,
+.testimonial-content i,
+.widget-column-1 span,
+.footer_info_box span,
+.header-right-contact i,
+.heade-top-area-mail a:hover,
+a.ReadMoreBtn:hover,
+.team-infobox h3 a:hover,
+.infoBx a:hover,
+.process_image_box .elementor-image-box-img::after,
+h5.subtitle,
+h2.services_title span,
+.popular_questions_tab .elementor-accordion-title span { color: #d81324 !important; }
+
+/* --- Icon backgrounds: red --- */
+.footer_info_box i,
+.heade-top-area-mail i,
+.footer_info_area,
+.hdr-topstrip,
+.newsInfo span,
+.process_image_box:hover .elementor-image-box-img,
+.process_image_box .elementor-image-box-img::before,
+.team-image-area .thumb,
+.case_studies_box .elementor-image-box-img,
+.team-image-area .team-thumb,
+.team-infobox:hover,
+.team-infobox .social-icons,
+.widget-column-4 .mc4wp-form-fields [type='submit'],
+.footer_time_info .footer_info_box:nth-child(3),
+.footer_time_info .footer_info_box:nth-child(3)::before { background-color: #d81324 !important; }
+
+/* --- CTA button (GET A FREE QUOTE) --- */
+.header_button_box a { background: #d81324 !important; color: #fff !important; }
+.header_button_box a:hover { background: #0a0a0a !important; color: #fff !important; }
+
+/* --- Footer: black --- */
+.site-footer { background-color: #111111 !important; }
+.footer-info-section { background: #0a0a0a !important; }
+.copyright-wrapper { background-color: #0a0a0a !important; color: #fff !important; }
+
+/* --- Footer text/links --- */
+.site-footer, .widget-column-1 a, .widget-column-2 p { color: #d1d1d1 !important; }
+.site-footer ul li a { color: #d1d1d1 !important; }
+.site-footer ul li a:hover, .site-footer ul li.current_page_item a { color: #d81324 !important; }
+.site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 { color: #ffffff !important; }
+
+/* --- Headings: black text --- */
+h1, h2, h3, h4, h5, h6 { color: #0a0a0a; }
+body { color: #1a1a1a; }
+
+/* --- News/Blog info box --- */
+.newsInfo { background: #fff !important; }
+.newsInfo span { background: #d81324 !important; color: #fff !important; }
+.newsInfo h3 a { color: #0a0a0a !important; }
+.newsInfo h3 a:hover { color: #d81324 !important; }
+
+/* --- Team infobox --- */
+.team-infobox { background: #111111 !important; border-color: #d81324 !important; }
+.team-infobox h3 a { color: #ffffff !important; }
+.team-infobox:hover { background: #d81324 !important; }
+.team-infobox:hover h3, .team-infobox:hover .team-desig,
+.team-infobox:hover .team_plus i { color: #fff !important; }
+
+/* --- Process boxes --- */
+.process_image_box .elementor-image-box-img {
+    border-color: #d81324 !important;
+    background: #f5f5f5 !important;
+}
+.process_image_box:hover .elementor-image-box-img { background: #d81324 !important; }
+.recent_work .elementor-widget-icon { border-bottom-color: #d81324 !important; }
+
+/* --- Offer/service boxes --- */
+.offer_box:hover::before { border-top-color: #d81324 !important; }
+.offer_box:hover::after { border-bottom-color: #d81324 !important; }
+
+/* --- Footer info box borders --- */
+.footer_info_box i::after { border-top-color: #d81324 !important; }
+.footer_time_info .footer_info_box:nth-child(3)::after { border-bottom-color: #d81324 !important; }
+.logo::after { border-top-color: #d81324 !important; }
+
+/* --- Social icon hover --- */
+.hdrsocial a { color: #ffffff !important; }
+.hdrsocial a:hover, .hdrtop-Info.hdrsocial a:hover { color: #d81324 !important; }
+.footer-info-dtl .footsocial a:hover { color: #d81324 !important; }
+.footsocial a { color: #fff !important; }
+
+/* --- Top strip info text --- */
+.hdrtop-Info, .hdrsocial a, .infoBx a, .infoBx p,
+.heade-top-area-mail i, .heade-top-area-mail a { color: #fff !important; }
+.header-top-area-right::before { background-color: #d81324 !important; }
+
+/* --- Header contact info --- */
+.header_contact_info a, .header_contact_info span { color: #0a0a0a !important; }
+.header_contact_info a:hover { color: #d81324 !important; }
+
+/* --- Sidebar borders --- */
+#sidebar ul li, .copyright-wrapper { border-color: #d81324 !important; }
+
+/* --- Focus outlines --- */
+#SiteWrapper a:focus { outline: 1px solid #d81324 !important; }
+button:focus, input:focus, textarea:focus { outline: 1px solid #d81324 !important; }
+
+/* --- Slider buttons --- */
+.nivo-caption .slidermorebtn { background-color: #fff !important; color: #0a0a0a !important; }
+.slidermorebtn.slidermorebtnser { background: #d81324 !important; color: #fff !important; }
+.nivo-controlNav a.active { background: #d81324 !important; }
+
+/* --- Search field border --- */
+.form_field, .process_image_box .elementor-image-box-img { border-color: #d81324 !important; }
+
+/* --- Tagcloud & blockquote --- */
+.tagcloud a:hover, blockquote { border-color: #d81324 !important; }
+blockquote::before, h5.subtitle, .button:hover { color: #d81324 !important; }
+
+/* --- Copyright links --- */
+.copyright-right a:hover { color: #d81324 !important; }
