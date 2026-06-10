@@ -30,8 +30,8 @@ DreamBuild Pro WordPress Theme is released under the terms of GNU GPL
 body{
 	font-size:16px;
 	line-height:26px;
-	font-family:"Poppins", Sans-serif	
-	background-color:#ffffff;	
+	font-family:"Poppins", Sans-serif;	
+	background-color: #ffffff;	
 	color:#161616;
 	-ms-word-wrap:break-word; 
 	word-wrap:break-word;overflow-x: hidden;
@@ -113,7 +113,7 @@ img.alignleft,
 --------------------------------------------- */
 a{ 
 	text-decoration:none;
-	color:#efc62c;
+	color:#ff5e15;
 }
 a:hover{ 
 	color:#111;
@@ -260,7 +260,7 @@ nav.pagination .page-numbers{
 	color:#444;
 }
 nav.pagination .page-numbers.current{
-	background-color:#efc62c;
+	background-color:#e63946;
 }
 .site-nav-previous, 
 .nav-previous{ 
@@ -423,7 +423,7 @@ a.ReadMoreBtn:hover{
 }
 .header-contact-info {float: right;
 padding-top: 17px;
-background: #df0a0a;
+background: #ff5e15;
 padding-bottom: 17px;
 padding-left: 40px;
 padding-right: 30px;}
@@ -449,7 +449,7 @@ body.home .header-contact-info .header-info-box i.fas.fa-phone-alt {
   transform: rotate(0deg);
 }
 .header-contact-info .header-info-box b{
-  color: #103195;
+  color: #1d1d1b;
   font-size: 16px;
   font-weight: 600;
   display: block;
@@ -527,7 +527,7 @@ body.home .header-contact-info .header-info-box i.fas.fa-phone-alt {
 .RightNavMenu .container{ 	
 	text-align: left;
 	padding: 0;
-	margin: 0 auto; background: #103195;
+	margin: 0 auto; background: #1d1d1b;
 border-radius: 7px; padding-left:30px; bottom:-27px; z-index:999; position:relative;
 }
 .innerbanner{ overflow:hidden; width:100%; text-align:center; background:#fff;}
@@ -543,7 +543,7 @@ border-radius: 7px; padding-left:30px; bottom:-27px; z-index:999; position:relat
 }
 
 .site-navigation ul ul {
-    background-color: #00245c;
+    background-color: #1d1d1b;
     text-align: left;
     padding: 0;
 }
