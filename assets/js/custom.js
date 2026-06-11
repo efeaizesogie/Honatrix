@@ -121,22 +121,22 @@ jQuery(document).ready(function() {
 });
 
 jQuery(document).ready(function( jQuery ) {
-		jQuery('#testimonials').owlCarousel({
+		jQuery('.testiminials').owlCarousel({ 
 		loop: true,
 		rtl: false,
 		margin: 30,
 		responsiveClass: true,
-		nav: false,
-		dots: false,
-		autoplay: false,
+		nav: true,
+		dots: true,
+		autoplay: true,
 		autoplayTimeout: 5000,
-		autoplayHoverPause: false,
-		smartSpeed: 3000,
+		autoplayHoverPause: true,
+		smartSpeed: 1000,
 		navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 		responsive: {
-		  0: {items: 2},
-		  768: {items: 2},
-		  1025: {items: 2}
+		  0: {items: 1},
+		  768: {items: 1},
+		  1025: {items: 1}
 		}
 	 });
 });

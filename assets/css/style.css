@@ -1704,10 +1704,10 @@ textarea:focus {
 }
 
 #clienttestiminials{ position:relative; padding:0; }
-#clienttestiminials .owl-nav{ margin:0; text-align:center; position: absolute; width:100%; bottom:0px; left:-520px; display:none;}
-#clienttestiminials .owl-nav i{ color:#fff; font-size:17px;}
-#clienttestiminials .owl-nav .owl-prev{ left:0; border-radius:100px;}
-#clienttestiminials .owl-nav .owl-next{right:auto; left:55px; border-radius:100px;}
+#clienttestiminials .owl-nav{ margin:0; text-align:center; position: absolute; width:100%; bottom:0px; left:0; display:block;}
+#clienttestiminials .owl-nav i{ color:#d81324; font-size:24px;}
+#clienttestiminials .owl-nav .owl-prev{ left:0; border: 1px solid #d81324; border-radius:100px; width: 40px; height: 40px; line-height: 38px;}
+#clienttestiminials .owl-nav .owl-next{right:auto; left:55px; border: 1px solid #d81324; border-radius:100px; width: 40px; height: 40px; line-height: 38px;}
 #clienttestiminials .item{ margin:0 auto; position:relative; }
 #clienttestiminials h6{  margin:0; font-weight:400; padding:0px; color:#414141; font-size:13px;}
 #clienttestiminials p{color:#222;}
@@ -2075,8 +2075,8 @@ body.home .widget-column-3 .fa-phone-alt{transform: rotate(0deg); padding-top:3p
 .testimonial-image h5 {color: #fff; margin: 0; font-size:23px; font-weight:500; padding-bottom:5px; padding-top:15px;}
 .testimonial-image h6 {color: #fff; margin: 0; font-family: "Inter", Sans-serif; font-size:17px; font-weight:400;}
 .testiminials .owl-controls .owl-dots{text-align:left; left:0px; bottom:0;}
-.testiminials .owl-controls .owl-dot {width: 12px; height: 12px; position:relative; background: #c7c9c6}
-.testiminials .owl-controls .owl-dot.active{background: #d65341}
+.testiminials .owl-controls .owl-dot {width: 12px; height: 12px; position:relative; background: #ffffff}
+.testiminials .owl-controls .owl-dot.active{background: #111111}
 .testiminials .owl-controls .owl-dot::before {content: ''; width: 5px;height: 5px; background:#fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); border-radius: 100%; display:none;}
 .home_contact .wpcf7{ margin:0px;}
 .home_contact .wpcf7-form-control-wrap {width: 50% !important;float: left; padding:8px;}
