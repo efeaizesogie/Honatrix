@@ -970,6 +970,12 @@ button.dropdown-toggle.active i {
 	padding:0 5% 0 0;
 	float:left;
 }
+.LayoutContent-100{ 
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	float:none;
+}
 .SitePageStyle-2{
 	padding:0;
 }
@@ -1999,10 +2005,10 @@ body.home .widget-column-3 .fa-phone-alt{transform: rotate(0deg); padding-top:3p
 .team-infobox .social-icons a i:hover{ color:#282828;}
 .team-infobox {padding:20px 25px 20px; background:#282828; position:relative; border-radius:0px 0px 12px 12px; border-bottom:solid 3px #f08556; text-align:left;}
 .team-infobox h3{margin-top: -5px; color: #fff; margin-bottom:0px;}
-.team-infobox h3 a {color:#181d4e; font-size:20px; font-weight:600; margin-bottom:0px; display:inline-block;}
+.team-infobox h3 a {color:#ffffff; font-size:20px; font-weight:600; margin-bottom:0px; display:inline-block;}
 .team-infobox:hover h3 a{ color:#fff !important;}
 .team-inner-box:hover .team-image-area .social-icons{ opacity:1;}
-.team-infobox .team-desig {font-size:15px; font-weight:400; color:#040404;}
+.team-infobox .team-desig {font-size:15px; font-weight:400; color:#ffffff;}
 .team-inner {width:25%; float:left; padding:15px; text-align:center;}
 .team-infobox .social-icons {width:auto;background:#fe7f4c; display:inline-block; padding:5px 15px; position:relative; margin-top:7px;}
 .team-infobox .social-icons:empty {display:none;}
