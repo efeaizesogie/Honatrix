@@ -1389,7 +1389,7 @@ body:not(.rtl)
   --column-gap: 30px;
   --border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-  --margin-top: -370px;
+  --margin-top: -150px;
   --margin-bottom: 80px;
   --margin-left: 0px;
   --margin-right: 0px;
