@@ -2103,6 +2103,16 @@ body.post-type-archive-testimonials h1.entry-title span{font-size: 30px;}
 .header_menu_area {background: #00245c;}
 .header_call_info { width:50%; float:left;}
 .site-navigation ul.nav-menu > li:nth-child(1) {padding-left: 0px;}
+.project-thumb-img {
+	width: 100%;
+	height: 480px !important;
+	object-fit: cover;
+}
+@media (max-width: 767px) {
+	.project-thumb-img {
+		height: auto !important;
+	}
+}
 #navigationpanel {width:auto; float:left;}
 .header_search_area {float: right; width: auto; border-left: solid 1px #324f79;}
 .header_search_box{ float:left}
