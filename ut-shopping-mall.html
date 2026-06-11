@@ -17,7 +17,7 @@
 <style>
     :root {
         --brand-red: #d81324;
-        --brand-dark: #001c47;
+        --brand-dark: transparent;
     }
     .property-hero {
         background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/urban-tola-mall.png');
@@ -55,8 +55,8 @@
 /* Existing site styles for header compatibility */
 body, .contact-form-section .address, .accordion-box .acc-content{color:#161616;}body{font-family:Inter; font-size:15px;}.logo h1 a {font-family:Inter;color:#212329;font-size:38px}.logo p{color:#444444;}.logo img{height:51px; width: auto;}.site-navigation ul{font-family:'Poppins', sans-serif; font-size:17px}
 .header_menu_area{ background:#00245c; } .site-navigation a{ color:#ffffff; } .site-navigation ul.nav-menu .current_page_item > a{ color:#ff3a4a; }
-.site-footer{ background:#001c47; color:#d1d1d1; }
-.footer-info-section{ background:#001c47; }
+.site-footer{ background:transparent; color:#d1d1d1; }
+.footer-info-section{ background:transparent; }
 </style>
 </head>
 <body class="page-template elementor-default elementor-kit-9 elementor-page">
@@ -108,7 +108,12 @@ body, .contact-form-section .address, .accordion-box .acc-content{color:#161616;
                             <ul id="primary-menu" class="nav-menu">
                                 <li class="menu-item"><a href="index.html">Home</a></li>
                                 <li class="menu-item"><a href="about.html">About</a></li>
-                                <li class="menu-item"><a href="services.html">Services</a></li>
+                                <li class="menu-item menu-item-has-children"><a href="#">Expertise</a>
+                                <ul class="sub-menu">
+                                	<li class="menu-item"><a href="services.html">Services</a></li>
+                                	<li class="menu-item"><a href="team.html">Our Team</a></li>
+                                </ul>
+                                </li>
                                 <li class="menu-item"><a href="gallery.html">Gallery</a></li>
                                 <li class="menu-item"><a href="contact.html">Contact</a></li>
                                 <li class="menu-item current-menu-item"><a href="ut-shopping-mall.html">UT Mall</a></li>
@@ -226,6 +231,7 @@ body, .contact-form-section .address, .accordion-box .acc-content{color:#161616;
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="services.html">Services</a></li>
+                            <li><a href="team.html">Our Team</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="contact.html">Contact</a></li>
                             <li class="current-menu-item"><a href="ut-shopping-mall.html">UT Mall</a></li>
