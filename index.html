@@ -88,7 +88,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 });		
 
 					
-		jQuery(window).load(function() {
+		jQuery(document).ready(function() {
         jQuery('#slider').nivoSlider({
         	effect:'random', //sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft, fold, fade, random, slideInRight, slideInLeft, boxRandom, boxRain, boxRainReverse, boxRainGrow, boxRainGrowReverse
 		  	animSpeed: 500,
@@ -100,7 +100,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 });
 
 
-jQuery(window).load(function() {   
+jQuery(document).ready(function() {   
   jQuery('.owl-carousel').owlCarousel({
     loop:true,	
 	autoplay: true,
@@ -259,8 +259,88 @@ jQuery(document).ready(function() {
 		
 	</style>
     
+    <style id="honatrix-preloader-css">
+      /* ── Preloader ── */
+      #honatrix-preloader {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        transition: opacity 0.6s ease, visibility 0.6s ease;
+      }
+      #honatrix-preloader.fade-out {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      #honatrix-preloader .pre-logo {
+        max-width: 180px;
+        height: auto;
+        margin-bottom: 36px;
+        animation: preLogoFade 0.8s ease forwards;
+      }
+      @keyframes preLogoFade {
+        from { opacity: 0; transform: translateY(-10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      /* Spinner ring */
+      .pre-spinner {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 4px solid rgba(216, 19, 36, 0.15);
+        border-top-color: #d81324;
+        animation: preSpin 0.85s linear infinite;
+        margin-bottom: 28px;
+      }
+      @keyframes preSpin {
+        to { transform: rotate(360deg); }
+      }
+      /* Progress bar */
+      .pre-bar-track {
+        width: 200px;
+        height: 3px;
+        background: rgba(216, 19, 36, 0.12);
+        border-radius: 99px;
+        overflow: hidden;
+      }
+      .pre-bar-fill {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #d81324, #ff3a4a);
+        border-radius: 99px;
+        animation: preBarFill 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      }
+      @keyframes preBarFill {
+        0%   { width: 0%; }
+        60%  { width: 75%; }
+        85%  { width: 90%; }
+        100% { width: 100%; }
+      }
+      /* Hide site wrapper until ready */
+      #SiteWrapper {
+        opacity: 0;
+        transition: opacity 0.5s ease 0.1s;
+      }
+      #SiteWrapper.site-visible {
+        opacity: 1;
+      }
+    </style>
     </head>
 <body class="home wp-singular page-template page-template-template-parts page-template-template-homepage-builder page-template-template-partstemplate-homepage-builder-php page page-id-294 wp-embed-responsive wp-theme-dreambuild-pro elementor-default elementor-kit-9 elementor-page elementor-page-294">
+
+<!-- ══ HONATRIX PRELOADER ══ -->
+<div id="honatrix-preloader" role="status" aria-label="Loading Honatrix, please wait">
+  <img class="pre-logo" src="assets/img/honatrix-logo.png" alt="Honatrix" />
+  <div class="pre-spinner"></div>
+  <div class="pre-bar-track"><div class="pre-bar-fill"></div></div>
+</div>
+<!-- ══ /PRELOADER ══ -->
+
 <a class="skip-link screen-reader-text" href="#tabber-BX">
 Skip to content</a>
 <div id="SiteWrapper" >
@@ -1381,6 +1461,27 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 /*! This file is auto-generated */
 const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
 //# sourceURL=https://gracethemesdemo.com/dreambuild/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>
+(function() {
+  function revealSite() {
+    var loader = document.getElementById('honatrix-preloader');
+    var site   = document.getElementById('SiteWrapper');
+    if (loader) loader.classList.add('fade-out');
+    if (site)   site.classList.add('site-visible');
+    // Clean up from DOM after transition ends
+    if (loader) {
+      loader.addEventListener('transitionend', function() {
+        if (loader.parentNode) loader.parentNode.removeChild(loader);
+      }, { once: true });
+    }
+  }
+  if (document.readyState === 'complete') {
+    revealSite();
+  } else {
+    window.addEventListener('load', revealSite);
+  }
+})();
 </script>
 </body>
 </html>	
