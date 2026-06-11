@@ -22,6 +22,15 @@
 	min-height: inherit;
 	overflow: hidden;
 }
+/* Dark overlay above images, below caption */
+.nivoSlider::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.52);
+	z-index: 7;
+	pointer-events: none;
+}
 .nivoSlider img {
 	position:absolute;
 	top:0px;
