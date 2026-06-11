@@ -32,10 +32,10 @@
 		 min-height: inherit;
 	 }
 	.BlogPostList{ 
-		float:none; 
-		width:100%; 
-		margin:0 0 30px 0;
-		padding:20px;
+		float:left; 
+		width:50%; 
+		margin:0 0 20px 0;
+		padding:10px;
 	}
 	.LayoutContent-70{ 
 		padding:40px 0;
@@ -262,7 +262,7 @@ body.blog #tabber-BX {margin-top:0px;}
 
 .footer-info-box .footer-info-dtl{padding:20px 15px 20px 15px; width:100%; min-height:inherit;}
 .footer-fix{ padding:40px 0px 40px;}
-.team-inner {width:100%;}
+.team-inner {width:50%; float:left; padding:10px;}
 .team-inner .team-thumb img {width:100%;}
 .innovations_list .elementor-icon-list-item {width:100%;}
 .skill_video {position:relative !important; top:auto !important; left:-30px; margin-top:-40px;}
