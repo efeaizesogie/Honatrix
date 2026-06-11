@@ -2163,7 +2163,7 @@ body.post-type-archive-testimonials h1.entry-title span{font-size: 30px;}
 .slidermorebtn.slidermorebtnser{ color:#001028 !important; margin-left:10px;}
 .innovation_video .elementor-custom-embed-image-overlay img{ width:auto !important;}
 .innovation_video .elementor-widget-container{height:50px !important;}
-.innovation_image_bottom::before {content:''; width:0; height:0; border-top:184px solid #c24005; border-right:162px solid transparent; position:absolute; bottom:0; right:0px;}
+.innovation_image_bottom::before {content:''; width:0; height:0; border-top:184px solid #b00f1d; border-right:162px solid transparent; position:absolute; bottom:0; right:0px;}
 .slidermorebtn.slidermorebtnser:hover{ color:#fff !important;}
 .hdrtop-Info.hdrsocial a {color:#fff !important;}
 .hdrtop-Info.hdrsocial a:hover{color:#222 !important;}
