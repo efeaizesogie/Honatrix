@@ -769,6 +769,8 @@ body:not(.rtl)
   --padding-bottom: 0px;
   --padding-left: 0px;
   --padding-right: 0px;
+  height: 60vh;
+  min-height: 450px; /* Minimum height to ensure content fits on smaller screens */
 }
 .elementor-294
   .elementor-element.elementor-element-581c870c:not(
@@ -787,15 +789,21 @@ body:not(.rtl)
   --padding-left: 0px;
   --padding-right: 0px;
 }
+.elementor-294 .elementor-element.elementor-element-387650c2 {
+  height: 100%;
+}
 .elementor-294 .elementor-element.elementor-element-387650c2 img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .elementor-294 .elementor-element.elementor-element-514d0c3a {
   --display: flex;
-  --padding-top: 75px;
-  --padding-bottom: 50px;
+  --padding-top: 30px;
+  --padding-bottom: 20px;
   --padding-left: 65px;
   --padding-right: 50px;
+  height: 100%;
 }
 .elementor-294
   .elementor-element.elementor-element-514d0c3a:not(
@@ -905,10 +913,11 @@ body:not(.rtl)
 }
 .elementor-294 .elementor-element.elementor-element-b1e385f {
   --display: flex;
-  --padding-top: 75px;
-  --padding-bottom: 50px;
+  --padding-top: 30px;
+  --padding-bottom: 20px;
   --padding-left: 65px;
   --padding-right: 50px;
+  height: 100%;
 }
 .elementor-294
   .elementor-element.elementor-element-b1e385f:not(
