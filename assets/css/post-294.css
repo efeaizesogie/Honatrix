@@ -2203,9 +2203,9 @@ body:not(.rtl)
   font-weight: var(--e-global-typography-secondary-font-weight);
 }
 .elementor-294 .elementor-element.elementor-element-203e8b20 {
-  width: var(--container-widget-width, 25%);
-  max-width: 25%;
-  --container-widget-width: 25%;
+  width: var(--container-widget-width, 33.33%);
+  max-width: 33.33%;
+  --container-widget-width: 33.33%;
   --container-widget-flex-grow: 0;
 }
 .elementor-294
@@ -2231,39 +2231,12 @@ body:not(.rtl)
   font-size: 64px;
   font-weight: 600;
 }
-.elementor-294 .elementor-element.elementor-element-725d3460 {
-  width: var(--container-widget-width, 25%);
-  max-width: 25%;
-  --container-widget-width: 25%;
-  --container-widget-flex-grow: 0;
-}
-.elementor-294
-  .elementor-element.elementor-element-725d3460
-  .elementor-counter {
-  flex-direction: row-reverse;
-}
-.elementor-294
-  .elementor-element.elementor-element-725d3460
-  .elementor-counter-title {
-  align-items: center;
-  color: #040b25;
-  font-family: "Poppins", Sans-serif;
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 1.4em;
-}
-.elementor-294
-  .elementor-element.elementor-element-725d3460
-  .elementor-counter-number-wrapper {
-  color: #111111;
-  font-family: "Poppins", Sans-serif;
-  font-size: 64px;
-  font-weight: 600;
-}
+
+
 .elementor-294 .elementor-element.elementor-element-27cf7188 {
-  width: var(--container-widget-width, 25%);
-  max-width: 25%;
-  --container-widget-width: 25%;
+  width: var(--container-widget-width, 33.33%);
+  max-width: 33.33%;
+  --container-widget-width: 33.33%;
   --container-widget-flex-grow: 0;
 }
 .elementor-294
@@ -2290,9 +2263,9 @@ body:not(.rtl)
   font-weight: 600;
 }
 .elementor-294 .elementor-element.elementor-element-4d7e7275 {
-  width: var(--container-widget-width, 25%);
-  max-width: 25%;
-  --container-widget-width: 25%;
+  width: var(--container-widget-width, 33.33%);
+  max-width: 33.33%;
+  --container-widget-width: 33.33%;
   --container-widget-flex-grow: 0;
 }
 .elementor-294
@@ -3778,16 +3751,7 @@ body:not(.rtl)
     .elementor-counter-title {
     font-size: 17px;
   }
-  .elementor-294
-    .elementor-element.elementor-element-725d3460
-    .elementor-counter-number-wrapper {
-    font-size: 40px;
-  }
-  .elementor-294
-    .elementor-element.elementor-element-725d3460
-    .elementor-counter-title {
-    font-size: 17px;
-  }
+
   .elementor-294
     .elementor-element.elementor-element-27cf7188
     .elementor-counter-number-wrapper {
@@ -4387,10 +4351,7 @@ body:not(.rtl)
     width: 100%;
     max-width: 100%;
   }
-  .elementor-294 .elementor-element.elementor-element-725d3460 {
-    width: 100%;
-    max-width: 100%;
-  }
+
   .elementor-294 .elementor-element.elementor-element-27cf7188 {
     width: 100%;
     max-width: 100%;
