@@ -140,3 +140,37 @@ jQuery(document).ready(function( jQuery ) {
 		}
 	 });
 });
+
+// Counter Animation for Honatrix Static Site
+jQuery(document).ready(function($) {
+    var animated = false;
+    function animateCounters() {
+        var $counterSection = $('.elementor-widget-counter');
+        if ($counterSection.length === 0) return;
+        
+        var scrollPos = $(window).scrollTop() + $(window).height();
+        var sectionPos = $counterSection.offset().top;
+        
+        if (scrollPos > sectionPos && !animated) {
+            animated = true;
+            $('.elementor-counter-number').each(function() {
+                var $this = $(this);
+                var countTo = parseInt($this.attr('data-to-value'));
+                $({ countNum: 0 }).animate({
+                    countNum: countTo
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function() {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                        $this.text(this.countNum);
+                    }
+                });
+            });
+        }
+    }
+    $(window).on('scroll', animateCounters);
+    animateCounters(); 
+});
