@@ -32,10 +32,22 @@
 		 min-height: inherit;
 	 }
 	.BlogPostList{ 
-		float:left; 
-		width:50%; 
-		margin:0 0 20px 0;
-		padding:10px;
+		float:left !important; 
+		width:50% !important; 
+		min-width: 0 !important;
+		margin:0 0 20px 0 !important;
+		padding:10px !important;
+	}
+	.team-grid {
+		gap: 15px !important;
+	}
+	.team-grid .BlogPostList {
+		width: calc(50% - 15px) !important;
+		margin-bottom: 15px !important;
+	}
+	.BlogPostList .hg-blog-img img, .team-grid .BlogPostList img {
+		width: 100% !important;
+		height: auto !important;
 	}
 	.LayoutContent-70{ 
 		padding:40px 0;
@@ -262,8 +274,10 @@ body.blog #tabber-BX {margin-top:0px;}
 
 .footer-info-box .footer-info-dtl{padding:20px 15px 20px 15px; width:100%; min-height:inherit;}
 .footer-fix{ padding:40px 0px 40px;}
-.team-inner {width:50%; float:left; padding:10px;}
-.team-inner .team-thumb img {width:100%;}
+.elementor-shortcode { display: flex !important; flex-wrap: wrap !important; }
+.team-inner {width:50% !important; padding:10px !important; float: none !important;}
+.team-inner-box {margin-bottom: 20px; height: 100%;}
+.team-inner .team-thumb img {width:100% !important; height:auto !important;}
 .innovations_list .elementor-icon-list-item {width:100%;}
 .skill_video {position:relative !important; top:auto !important; left:-30px; margin-top:-40px;}
 .NewsBox {width:100%;}
