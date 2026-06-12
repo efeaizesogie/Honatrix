@@ -97,7 +97,7 @@ h2.services_title span,
 
 /* --- CTA button (GET A FREE QUOTE) --- */
 .header_button_box a { background: #d81324 !important; color: #fff !important; }
-.header_button_box a:hover { background: #0a0a0a !important; color: #fff !important; }
+.header_button_box a:hover { background: #9e0e1a !important; color: #fff !important; }
 
 /* --- Footer: black --- */
 .site-footer { background-color: #111111 !important; }
@@ -146,7 +146,7 @@ body { color: #1a1a1a; }
 
 /* --- Social icon hover --- */
 .hdrsocial a { color: #ffffff !important; }
-.hdrsocial a:hover, .hdrtop-Info.hdrsocial a:hover { color: #d81324 !important; }
+.hdrsocial a:hover, .hdrtop-Info.hdrsocial a:hover { color: #111111 !important; }
 .footer-info-dtl .footsocial a:hover { color: #d81324 !important; }
 .footsocial a { color: #fff !important; }
 
