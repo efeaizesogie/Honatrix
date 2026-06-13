@@ -2105,9 +2105,10 @@ body.post-type-archive-testimonials h1.entry-title span{font-size: 30px;}
 .header_contact_info i {float:left; height: 55px; margin-right:20px; font-size: 30px; color: #ff5e15; padding-top: 7px;}
 .header_contact_info a,.header_contact_info span {color:#181d4e; font-weight: 400; font-size: 17px;}
 .header_contact_info a:hover{ color:#ff5e15;}
-.header_contact_info{width:50%; float: right; font-size: 18px; color: #181d4e; font-weight: 500; padding:20px 0px 0px;}
+.header_contact_info{width:68%; float: right; font-size: 18px; color: #181d4e; font-weight: 500; padding:20px 0px 0px;}
 .header_menu_area {background: #00245c;}
-.header_call_info { width:50%; float:left;}
+.header_call_info { width:35%; float:left;}
+.header_call_info:nth-child(2) { width:65%;}
 .site-navigation ul.nav-menu > li:nth-child(1) {padding-left: 0px;}
 .project-thumb-img {
 	width: 100%;

@@ -218,7 +218,7 @@
 .footer-info-box.footer-info-box3 .footsocial{ text-align:center;}
 .footer-info{ padding:15px 0px;}
 .header-top-area-left, .header-top-area-right{ width:100%;}
-.hdrtop-Info, .heade-top-area-mail{ width:100%; border:none; text-align: center; line-height:2 !important;}
+.hdrtop-Info, .heade-top-area-mail{ width:100%; border:none; text-align: center; line-height:1.6 !important; font-size: 14px;}
 .hdrtop-Info span b {padding-left:0px; display:block;}
 .hdrtop-Info {line-height:normal;}
 .header-contact-info {float:left;}
@@ -332,9 +332,10 @@ body.blog #tabber-BX {margin-top:0px;}
 .newsInfo{ padding:25px; width:100%; padding-top:35px;}
 .newsThumb{ width:100%;}
 
-.header_contact_info {width:100%;}
-.header_call_info{padding:10px 0px; width:100%;}
-.header_contact_info{ padding:0px;}
+.header_contact_info {width:100%; padding: 10px 0px; font-size: 16px;}
+.header_call_info{padding:5px 0px; width:100%;}
+.header_contact_info a, .header_contact_info span {font-size: 14px;}
+.header_contact_info i {font-size: 22px; height: 40px; margin-right: 12px; padding-top: 5px;}
 .header_search_area{width:100%;}
 .header_button_box {float:left;}
 .header-top-area-left::after {display:none;}
