@@ -1,308 +1,930 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="assets/img/honatrix-logo.png">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<title>UT Shopping Mall - Investment Opportunity | Honatrix</title>
-<meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='stylesheet' id='Honatrix Nig. Ltd.-pro-basic-style-css' href="assets/css/style.css" media='all' />
-<link rel='stylesheet' id='fontawesome-all-style-css' href="assets/css/fontawesome-all.css" media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href="assets/css/frontend.min.css" media='all' />
-<link rel='stylesheet' id='elementor-post-294-css' href="assets/css/post-294.css" media='all' />
-<link rel='stylesheet' id='honatrix-theme-css' href="assets/css/honatrix-theme.css" media='all' />
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/custom.js"></script>
-<style>
-    :root {
-        --brand-red: #d81324;
-        --brand-dark: transparent;
-    }
-    .property-hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/urban-tola-mall.png');
-        background-size: cover;
-        background-position: center;
-        padding: 120px 0;
-        text-align: center;
-        color: #fff;
-    }
-    .property-hero h1 { color: #fff; font-size: 48px; margin-bottom: 20px; }
-    .mall-section { padding: 80px 0; }
-    .mall-section h2 { border-left: 5px solid var(--brand-red); padding-left: 20px; margin-bottom: 40px; font-size: 32px; }
-    .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
-    .step-card { background: #f9f9f9; padding:30px; border-radius:12px; border-bottom:4px solid #eee; transition:all 0.3s ease; }
-    .step-card:hover { border-bottom-color: var(--brand-red); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-    .step-card .step-number { font-size: 40px; font-weight:800; color: rgba(216, 19, 36, 0.1); margin-bottom: 10px; display: block; }
-    .step-card h3 { font-size: 20px; margin-bottom: 15px; color: var(--brand-red); }
-    .location-box { background: #111111; color: #fff; padding: 60px; border-radius: 20px; }
-    .location-box h2 { color: #fff; border-left-color: #fff; }
-    .location-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
-    .location-list li { font-size: 18px; display: flex; align-items: center; }
-    .location-list li i { color: var(--brand-red); margin-right: 15px; }
-    .pricing-table { width: 100%; border-collapse: collapse; margin-top: 30px; background: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
-    .pricing-table th, .pricing-table td { padding: 20px; text-align: left; border-bottom: 1px solid #eee; }
-    .pricing-table th { background: #f4f4f4; font-weight: 600; }
-    .pricing-table .price-val { color: var(--brand-red); font-weight: 700; }
-    .faq-container { max-width: 900px; margin: 0 auto; }
-    .faq-item { margin-bottom: 30px; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-    .faq-item h4 { margin-bottom: 10px; color: var(--brand-red); }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-    .bg-light { background: #fdfdfd; }
-    .text-center { text-align: center; }
-</style>
-<style>
-/* Existing site styles for header compatibility */
-body, .contact-form-section .address, .accordion-box .acc-content{color:#161616;}body{font-family:Inter; font-size:15px;}.logo h1 a {font-family:Inter;color:#212329;font-size:38px}.logo p{color:#444444;}.logo img{height:51px; width: auto;}.site-navigation ul{font-family:'Poppins', sans-serif; font-size:17px}
-.header_menu_area{ background:#00245c; } .site-navigation a{ color:#ffffff; } .site-navigation ul.nav-menu .current_page_item > a{ color:#ff3a4a; }
-.site-footer{ background:transparent; color:#d1d1d1; }
-.footer-info-section{ background:transparent; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/img/honatrix-logo.png">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>UT Shopping Mall - Investment Opportunity | Honatrix Nig. Ltd.</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="alternate" type="application/rss+xml" title="Honatrix Nig. Ltd. &raquo; Feed" href="#" />
+    <link rel="alternate" type="application/rss+xml" title="Honatrix Nig. Ltd. &raquo; Comments Feed" href="#" />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="#" />
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="#" />
+    <style id="wp-img-auto-sizes-contain-inline-css">
+        img:is([sizes=auto i], [sizes^="auto," i]) {
+            contain-intrinsic-size: 3000px 1500px
+        }
+    </style>
+    <style id="wp-emoji-styles-inline-css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id="classic-theme-styles-inline-css">
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+
+    <style id="global-styles-inline-css">
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgb(6, 147, 227) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgb(252, 185, 0) 0%, rgb(255, 105, 0) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgb(255, 105, 0) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
+        }
+
+        :where(body) {
+            margin: 0;
+        }
+
+        body {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+    </style>
+
+    <link rel='stylesheet' id='contact-form-7-css' href="assets/css/styles.css" media='all' />
+    <link rel='stylesheet' id='Honatrix Nig. Ltd.-pro-gfonts-body-css'
+        href='//fonts.googleapis.com/css?family=Inter&#038;subset=cyrillic,arabic,bengali,cyrillic,cyrillic-ext,devanagari,greek,greek-ext,gujarati,hebrew,latin-ext,tamil,telugu,thai,vietnamese,latin&#038;ver=7.0'
+        media='all' />
+    <link rel='stylesheet' id='Honatrix Nig. Ltd.-pro-gfonts-nav-css'
+        href='//fonts.googleapis.com/css?family=Poppins&#038;subset=cyrillic,arabic,bengali,cyrillic,cyrillic-ext,devanagari,greek,greek-ext,gujarati,hebrew,latin-ext,tamil,telugu,thai,vietnamese,latin&#038;ver=7.0'
+        media='all' />
+    <link rel='stylesheet' id='Honatrix Nig. Ltd.-pro-gfonts-heading-css'
+        href='//fonts.googleapis.com/css?family=Poppins&#038;subset=cyrillic,arabic,bengali,cyrillic,cyrillic-ext,devanagari,greek,greek-ext,gujarati,hebrew,latin-ext,tamil,telugu,thai,vietnamese,latin&#038;ver=7.0'
+        media='all' />
+    <link rel='stylesheet' id='Honatrix Nig. Ltd.-pro-basic-style-css' href="assets/css/style.css" media='all' />
+    <link rel='stylesheet' id='fontawesome-all-style-css' href="assets/css/fontawesome-all.css" media='all' />
+    <link rel='stylesheet' id='Honatrix Nig. Ltd.-pro-responsive-css' href="assets/css/responsive.css" media='all' />
+    <link rel='stylesheet' id='honatrix-theme-css' href="assets/css/honatrix-theme.css" media='all' />
+
+    <style>
+        :root {
+            --brand-red: #d81324;
+        }
+
+        .property-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/img/urban-tola-mall.png');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        .property-hero h1 {
+            color: #fff;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .mall-section {
+            padding: 80px 0;
+        }
+
+        .mall-section h2 {
+            border-left: 5px solid var(--brand-red);
+            padding-left: 20px;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .step-card {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            border-bottom: 4px solid #eee;
+            transition: all 0.3s ease;
+        }
+
+        .step-card:hover {
+            border-bottom-color: var(--brand-red);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .step-card .step-number {
+            font-size: 40px;
+            font-weight: 800;
+            color: rgba(216, 19, 36, 0.1);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .step-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: var(--brand-red);
+        }
+
+        .location-box {
+            background: #111111;
+            color: #fff;
+            padding: 60px;
+            border-radius: 20px;
+        }
+
+        .location-box h2 {
+            color: #fff;
+            border-left-color: #fff;
+        }
+
+        .location-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .location-list li {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .location-list li i {
+            color: var(--brand-red);
+            margin-right: 15px;
+        }
+
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .pricing-table th,
+        .pricing-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .pricing-table th {
+            background: #f4f4f4;
+            font-weight: 600;
+        }
+
+        .pricing-table .price-val {
+            color: var(--brand-red);
+            font-weight: 700;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 30px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-item h4 {
+            margin-bottom: 10px;
+            color: var(--brand-red);
+        }
+
+
+
+        .bg-light {
+            background: #fdfdfd;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* MOBILE RESPONSIVENESS FIXES */
+        @media only screen and (max-width: 767px) {
+            .property-hero {
+                padding: 60px 0;
+            }
+
+            .property-hero h1 {
+                font-size: 32px;
+            }
+
+            .mall-section {
+                padding: 40px 0;
+            }
+
+            .mall-section h2 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+
+            .location-box {
+                padding: 30px 20px;
+            }
+
+            .location-list li {
+                font-size: 16px;
+            }
+
+            .pricing-table,
+            .pricing-table thead,
+            .pricing-table tbody,
+            .pricing-table th,
+            .pricing-table td,
+            .pricing-table tr {
+                display: block;
+            }
+
+            .pricing-table thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            .pricing-table tr {
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+            }
+
+            .pricing-table td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50% !important;
+                text-align: right;
+            }
+
+            .pricing-table td:before {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                text-align: left;
+            }
+
+            .pricing-table td:nth-of-type(1):before {
+                content: "Floor Level";
+            }
+
+            .pricing-table td:nth-of-type(2):before {
+                content: "Rate/SQM";
+            }
+
+            .pricing-table td:nth-of-type(3):before {
+                content: "Total";
+            }
+
+            .mall-section div[style*="flex-wrap: wrap"] {
+                flex-direction: column;
+                gap: 20px !important;
+            }
+        }
+
+        /* Site Header Compatibility */
+        body {
+            font-family: Inter;
+            font-size: 15px;
+        }
+
+        .header_menu_area {
+            background: #00245c;
+        }
+
+        .site-navigation a {
+            color: #ffffff;
+        }
+
+        .site-navigation ul.nav-menu .current_page_item>a {
+            color: #ff3a4a;
+        }
+
+        .site-footer {
+            background: transparent;
+            color: #d1d1d1;
+        }
+    </style>
+    <style id="honatrix-preloader-css">
+        /* -- Preloader -- */
+        #honatrix-preloader {
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+        }
+
+        #honatrix-preloader.fade-out {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        #honatrix-preloader .pre-logo {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 36px;
+            animation: preLogoFade 0.8s ease forwards;
+        }
+
+        @keyframes preLogoFade {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Spinner ring */
+        .pre-spinner {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 4px solid rgba(216, 19, 36, 0.15);
+            border-top-color: #d81324;
+            animation: preSpin 0.85s linear infinite;
+            margin-bottom: 28px;
+        }
+
+        @keyframes preSpin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Progress bar */
+        .pre-bar-track {
+            width: 200px;
+            height: 3px;
+            background: rgba(216, 19, 36, 0.12);
+            border-radius: 99px;
+            overflow: hidden;
+        }
+
+        .pre-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #d81324, #ff3a4a);
+            border-radius: 99px;
+            animation: preBarFill 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+
+        @keyframes preBarFill {
+            0% {
+                width: 0%;
+            }
+
+            60% {
+                width: 75%;
+            }
+
+            85% {
+                width: 90%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        /* Hide site wrapper until ready */
+        #SiteWrapper {
+            opacity: 0;
+            transition: opacity 0.5s ease 0.1s;
+        }
+
+        #SiteWrapper.site-visible {
+            opacity: 1;
+        }
+    </style>
 </head>
+
 <body class="page-template elementor-default elementor-kit-9 elementor-page">
 
-<div id="SiteWrapper" class="site-visible">
-<div id="masthead" class="site-header "> 
-    <div class="LgoBX">      	
-        <div class="hdr-topstrip">
-             <div class="container">
-                <div class="hdrdetail">
-             	  <div class="infoBx"> 
-                  <div class="header-top-area-left">
-                      <div class="heade-top-area-mail heade-top-area-add"><i class="fas fa-phone-alt"></i><a href="tel:+234 705 664 8622 ">+234 705 664 8622 </a></div>
-                      <div class="heade-top-area-mail"><i class="fas fa-envelope"></i><a href="mailto:support@honatrix.com">support@honatrix.com</a></div>
-	              </div>
-                   <div class="header-top-area-right">
-                  <div class="hdrtop-Info hdrsocial">                                                
-						                            <a class="fab fa-facebook-f" target="_blank" href="https://www.facebook.com/share/1Co17Zs47G/"></a> 
-                                                    <a class="fab fa-instagram" target="_blank" href="https://www.instagram.com/honatrix?utm_source=qr&igsh=MWY4am00a3QxdzRhdQ=="></a> 
-                                          </div>
-					</div>
-                <div class="clear"></div> 
-                </div>                
-              </div>
-               <div class="clear"></div>   
-            </div>       
-        </div> 
-        <div class="clear"></div>
-        <div class="header-area">  
-            <div class="container">     
-                <div class="logo">
-                     <a class="logoimg" title="Honatrix" href="index.html"><img src="assets/img/honatrix-logo.png" alt="Honatrix" /></a>
-                </div>
-                <div class="header_contact_info">
-                <div class="header_call_info"><i class="fas fa-phone-volume"></i>Call Us Now<br><a href="tel:+234 705 664 8622 ">+234 705 664 8622 </a></div>
-                <div class="header_call_info"><i class="fas fa-map-marker-alt"></i>Office Address <br> <span>Suite 47-49 Femi Olomola Plaza, Lagos </span></div>
-                <div class="clear"></div>
-                </div>
-                <div class="clear"></div>
-            </div>
+    <!-- -- HONATRIX PRELOADER -- -->
+    <div id="honatrix-preloader" role="status" aria-label="Loading Honatrix, please wait">
+        <img class="pre-logo" src="assets/img/honatrix-logo.png" alt="Honatrix" />
+        <div class="pre-spinner"></div>
+        <div class="pre-bar-track">
+            <div class="pre-bar-fill"></div>
         </div>
-        <div class="header_menu_area">
-            <div class="container">
-                <div id="navigationpanel"> 
-                     <nav id="main-navigation" class="site-navigation" role="navigation">
-                        <button type="button" class="menu-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                        <div class="menu-header-container">
-                            <ul id="primary-menu" class="nav-menu">
-                                <li class="menu-item"><a href="index.html">Home</a></li>
-                                <li class="menu-item"><a href="about.html">About</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Expertise</a>
-                                <ul class="sub-menu">
-                                	<li class="menu-item"><a href="services.html">Services</a></li>
-                                	<li class="menu-item"><a href="team.html">Our Team</a></li>
-                                </ul>
+    </div>
+    <!-- -- /PRELOADER -- -->
+
+    <div id="SiteWrapper">
+        <div id="masthead" class="site-header ">
+
+            <div class="LgoBX">
+
+                <div class="hdr-topstrip">
+                    <div class="container">
+                        <div class="hdrdetail">
+                            <div class="infoBx">
+
+                                <div class="header-top-area-left">
+                                    <div class="heade-top-area-mail heade-top-area-add"><i
+                                            class="fas fa-phone-alt"></i><a href="tel:+234 705 664 8622 ">+234 705 664
+                                            8622 </a></div>
+                                    <div class="heade-top-area-mail"><i class="fas fa-envelope"></i><a
+                                            href="mailto:support@honatrrix.com">support@honatrrix.com</a></div>
+                                </div>
+
+                                <div class="header-top-area-right">
+                                    <div class="hdrtop-Info hdrsocial">
+                                        <a class="fab fa-facebook-f" target="_blank"
+                                            href="https://www.facebook.com/share/1Co17Zs47G/"></a>
+
+                                        <a class="fab fa-instagram" target="_blank"
+                                            href="https://www.instagram.com/honatrix?utm_source=qr&igsh=MWY4am00a3QxdzRhdQ=="></a>
+
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div><!-- .infoBx-->
+                        </div><!-- .hdrdetail-->
+                        <div class="clear"></div>
+                    </div><!-- .container -->
+                </div><!-- .hdr-topstrip -->
+                <div class="clear"></div>
+                <div class="header-area">
+                    <div class="container">
+                        <div class="logo">
+
+                            <a class="logoimg" title="Honatrix" href="index.html"><img
+                                    src="assets/img/honatrix-logo.png" alt="Honatrix" /></a>
+
+                        </div><!-- logo -->
+
+                        <div class="header_contact_info">
+                            <div class="header_call_info"><i class="fas fa-phone-volume"></i>Call Us Now<br><a
+                                    href="tel:+234 705 664 8622 ">+234 705 664 8622 </a></div>
+                            <div class="header_call_info"><i class="fas fa-map-marker-alt"></i>Office Address <br>
+                                <span>Suite 47-49 Femi Olomola Plaza, Lagos </span>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!-- .container -->
+                </div>
+
+                <div class="header_menu_area">
+                    <div class="container">
+                        <div id="navigationpanel">
+                            <nav id="main-navigation" class="site-navigation" role="navigation"
+                                aria-label="Primary Menu">
+                                <button type="button" class="menu-toggle">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="menu-header-container">
+                                    <ul id="primary-menu" class="nav-menu">
+                                        <li id="menu-item-296"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-294 current_page_item menu-item-296">
+                                            <a href="index.html" aria-current="page">Home</a>
+                                        </li>
+                                        <li id="menu-item-298"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298">
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li class="menu-item menu-item-has-children"><a href="#">Expertise</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="services.html">Services</a></li>
+                                                <li class="menu-item"><a href="team.html">Our Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-305"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
+                                            <a href="gallery.html">Gallery</a>
+                                        </li>
+                                        <li id="menu-item-303"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303">
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                        <li class="menu-item"><a href="ut-shopping-mall.html">UT Mall</a></li>
+                                    </ul>
+                                </div>
+                            </nav><!-- #main-navigation -->
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="header_search_area">
+                            <div class="header_search_box">
+                                <li>
+                                    <div class="right_info_search_toggle" title="Search"><i class="fa fa-search"
+                                            aria-hidden="true"></i></div>
                                 </li>
-                                <li class="menu-item"><a href="gallery.html">Gallery</a></li>
-                                <li class="menu-item"><a href="contact.html">Contact</a></li>
-                                <li class="menu-item current-menu-item"><a href="ut-shopping-mall.html">UT Mall</a></li>
+                                <div class="header_form">
+                                    <form role="search" method="get" class="search_form" action="./">
+                                        <input type="search" class="form_field" placeholder="Search &hellip;" name="s">
+                                        <input type="hidden" name="post_type" value="product">
+                                        <input type="submit" class="form_submit" value="Search">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="header_button_box"><a href="contact.html">GET A FREE QUOTE</a></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div><!-- .LgoBX -->
+        </div><!--.site-header -->
+
+        <section class="property-hero">
+            <div class="container">
+                <h1>UT Shopping Mall</h1>
+                <p style="font-size: 20px; max-width: 700px; margin: 0 auto;">Invest in the future of retail. A premier
+                    commercial development located in the heart of the Lekki-Ajah corridor.</p>
+            </div>
+        </section>
+
+        <section class="mall-section bg-light">
+            <div class="container">
+                <h2>How to Buy</h2>
+                <div class="steps-grid">
+                    <div class="step-card"><span class="step-number">01</span>
+                        <h3>Site Inspection</h3>
+                        <p>Request for a site inspection to see the progress and strategic location firsthand.</p>
+                    </div>
+                    <div class="step-card"><span class="step-number">02</span>
+                        <h3>Subscription</h3>
+                        <p>Fill out the official subscription form with your details to express interest.</p>
+                    </div>
+                    <div class="step-card"><span class="step-number">03</span>
+                        <h3>Make Payment</h3>
+                        <p>Proceed to make payment to the designated account provided by Honatrix Nig. Ltd.</p>
+                    </div>
+                    <div class="step-card"><span class="step-number">04</span>
+                        <h3>Doc Preparation</h3>
+                        <p>Once payment is confirmed, your official ownership documents are prepared.</p>
+                    </div>
+                    <div class="step-card"><span class="step-number">05</span>
+                        <h3>Document Collection</h3>
+                        <p>Pickup the documents or request for a soft copy to be sent via email or delivery.</p>
+                    </div>
+                    <div class="step-card"><span class="step-number">06</span>
+                        <h3>Signed Copy</h3>
+                        <p>Return a signed copy of your document or mail it to our customer care center.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mall-section">
+            <div class="container">
+                <div class="location-box">
+                    <h2>Prime Location</h2>
+                    <p style="font-size: 18px; margin-bottom: 30px;">UT Shopping Mall is located right in the center of
+                        the busiest commercial hub:</p>
+                    <ul class="location-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Mobil Estate</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Greenland Estate</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ajah Market</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Northwest Filling Station</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Several Gated Estates</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mall-section bg-light">
+            <div class="container">
+                <h2>Pricing & Payment Plan</h2>
+                <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <table class="pricing-table">
+                            <thead>
+                                <tr>
+                                    <th>Floor Level</th>
+                                    <th>Rate per SQM</th>
+                                    <th>Total (20 SQM)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ground Floor</td>
+                                    <td class="price-val">N1,000,000</td>
+                                    <td class="price-val">N20,000,000</td>
+                                </tr>
+                                <tr>
+                                    <td>First Floor</td>
+                                    <td class="price-val">N900,000</td>
+                                    <td class="price-val">N18,000,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Second Floor</td>
+                                    <td class="price-val">N800,000</td>
+                                    <td class="price-val">N16,000,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div
+                        style="flex: 1; min-width: 300px; padding: 30px; background: var(--brand-red); color: #fff; border-radius: 12px;">
+                        <h3 style="color: #fff; margin-bottom: 20px;">Payment Plan</h3>
+                        <div style="font-size: 32px; font-weight: 800; margin-bottom: 10px;">50% Initial Deposit</div>
+                        <p style="font-size: 18px;">Balance spread over 18 months.</p>
+                        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 20px 0;">
+                        <h4>Specifications:</h4>
+                        <p>Build to finish delivery. Available sizes include 20 sqm and 30 sqm.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mall-section">
+            <div class="container">
+                <h2 class="text-center" style="border:0; padding:0; margin-bottom: 60px;">Frequently Asked Questions
+                </h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h4>Who are the developers?</h4>
+                        <p>Honatrix Nigeria Limited is the developer while West Marc Nigeria Limited is the promoter of
+                            the plaza.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>When can I schedule a site visit?</h4>
+                        <p>Site visits can be scheduled for every day of the week. Contact us to fix a perfect timing.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What documents do I get after payment?</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>Receipt of purchase (if payment complete)</li>
+                            <li>Invoice on instalment payment (till balance is completed)</li>
+                            <li>Letter of offer, stating agreed terms</li>
+                            <li>Contract of sales</li>
+                        </ul>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What facilities are provided in the Plaza?</h4>
+                        <p>All en-suite shops, serviced with central security, 24/7 electricity, ample parking lot, easy
+                            accessibility, standard international electrical fittings, water treatment, and many more.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Other fees to be paid?</h4>
+                        <p>There are no other charges as the price is all inclusive. However, there will be service
+                            charge upon physical allocation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>When will shop allocation be done?</h4>
+                        <p>After final payment, date of completion is 12 months.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="site-footer">
+            <div class="container">
+                <div class="footer-fix">
+
+                    <!-- =============================== Column One - 1 =================================== -->
+
+                    <div class="cols-4">
+
+
+                        <div class="widget-column-1">
+
+                            <a href="index.html"><img src="assets/img/honatrix-logo.png" alt="Honatrix" /></a>
+                            <p>Real Estate development, civil engineering construction, facility management</p>
+                            <div class="footer-info-dtl">
+
+                                <div class="footsocial">
+                                    <a class="fab fa-facebook-f" target="_blank"
+                                        href="https://www.facebook.com/share/1Co17Zs47G/"></a>
+
+                                    <a class="fab fa-instagram" target="_blank"
+                                        href="https://www.instagram.com/honatrix?utm_source=qr&igsh=MWY4am00a3QxdzRhdQ=="></a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="widget-column-2">
+
+                            <h3>Useful Links</h3>
+                            <div class="menu-useful-links-container">
+                                <ul id="menu-useful-links" class="menu">
+                                    <li id="menu-item-345"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-294 current_page_item menu-item-345">
+                                        <a href="index.html" aria-current="page">Home</a>
+                                    </li>
+                                    <li id="menu-item-347"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347">
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="menu-item"><a href="services.html">Services</a></li>
+                                    <li class="menu-item"><a href="team.html">Our Team</a></li>
+                                    <li id="menu-item-349"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349">
+                                        <a href="gallery.html">Gallery</a>
+                                    </li>
+                                    <li id="menu-item-348"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                    <li class="menu-item current-menu-item"><a href="ut-shopping-mall.html">UT Mall</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="widget-column-3">
+                            <h3>Our Services</h3>
+                            <div class="menu-our-services-container">
+                                <ul id="menu-our-services" class="menu">
+                                    <li id="menu-item-340"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340"><a
+                                            href="services.html#real-estate">Real Estate Development</a></li>
+                                    <li id="menu-item-341"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-341"><a
+                                            href="services.html#luxury-homes">Luxury Homes & Commercial Spaces</a></li>
+                                    <li id="menu-item-342"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a
+                                            href="services.html#civil-engineering">Civil Engineering & Construction</a>
+                                    </li>
+                                    <li id="menu-item-343"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-343"><a
+                                            href="services.html#investment">Investment Opportunities</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget-column-4">
+                            <h3>Opening Hours</h3>
+                            <ul>
+                                <li style="margin-bottom: 5px;">Mon - Fri: 9:00 AM - 6:00 PM</li>
+                                <li style="margin-bottom: 5px;">Saturday: 10:00 AM - 4:00 PM</li>
+                                <li style="margin-bottom: 5px;">Sunday: Closed</li>
                             </ul>
                         </div>
-                    </nav>
+                        <div class="clear"></div>
+                    </div>
+
                 </div>
-                <div class="header_search_area">
-                    <div class="header_button_box"><a href="contact.html">GET A FREE QUOTE</a></div>
+
+                <div class="clear"></div>
+            </div><!--end .footer-fix-->
+        </div><!--end .container-->
+
+
+        <div class="footer-info-section">
+            <div class="container">
+                <div class="footer-info-box">
+                    <div class="footer-info-dtl"><i class="fas fa-phone-volume"></i>Call Us On<br><a
+                            href="telto:+234 705 664 8622">+234 705 664 8622</a></div>
+                    <div class="footer-info-dtl"><i class="fas fa-envelope-open-text"></i></i>Email<br><a
+                            href="mailto:support@honatrix.com">support@honatrix.com</a></div>
+                    <div class="footer-info-dtl"><i class="fas fa-map-marker-alt"></i>Location<p>Suite 47-49 Femi
+                            Olomola Plaza, Lagos </p>
+                    </div>
+                    <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
             </div>
+
         </div>
-    </div>
-</div>
-
-<section class="property-hero">
-    <div class="container">
-        <h1>UT Shopping Mall</h1>
-        <p style="font-size: 20px; max-width: 700px; margin: 0 auto;">Invest in the future of retail. A premier commercial development located in the heart of the Lekki-Ajah corridor.</p>
-    </div>
-</section>
-
-<section class="mall-section bg-light">
-    <div class="container">
-        <h2>How to Buy</h2>
-        <div class="steps-grid">
-            <div class="step-card"><span class="step-number">01</span><h3>Site Inspection</h3><p>Request for a site inspection to see the progress and strategic location firsthand.</p></div>
-            <div class="step-card"><span class="step-number">02</span><h3>Subscription</h3><p>Fill out the official subscription form with your details to express interest.</p></div>
-            <div class="step-card"><span class="step-number">03</span><h3>Make Payment</h3><p>Proceed to make payment to the designated account provided by Honatrix Nig. Ltd.</p></div>
-            <div class="step-card"><span class="step-number">04</span><h3>Doc Preparation</h3><p>Once payment is confirmed, your official ownership documents are prepared.</p></div>
-            <div class="step-card"><span class="step-number">05</span><h3>Document Collection</h3><p>Pickup the documents or request for a soft copy to be sent via email or delivery.</p></div>
-            <div class="step-card"><span class="step-number">06</span><h3>Signed Copy</h3><p>Return a signed copy of your document or mail it to our customer care center.</p></div>
-        </div>
-    </div>
-</section>
-
-<section class="mall-section">
-    <div class="container">
-        <div class="location-box">
-            <h2>Prime Location</h2>
-            <p style="font-size: 18px; margin-bottom: 30px;">UT Shopping Mall is located right in the center of the busiest commercial hub:</p>
-            <ul class="location-list">
-                <li><i class="fas fa-map-marker-alt"></i> Mobil Estate</li>
-                <li><i class="fas fa-map-marker-alt"></i> Greenland Estate</li>
-                <li><i class="fas fa-map-marker-alt"></i> Ajah Market</li>
-                <li><i class="fas fa-map-marker-alt"></i> Northwest Filling Station</li>
-                <li><i class="fas fa-map-marker-alt"></i> Several Gated Estates</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section class="mall-section bg-light">
-    <div class="container">
-        <h2>Pricing & Payment Plan</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-            <div style="flex: 1; min-width: 300px;">
-                <table class="pricing-table">
-                    <thead><tr><th>Floor Level</th><th>Rate per SQM</th><th>Total (20 SQM)</th></tr></thead>
-                    <tbody>
-                        <tr><td>Ground Floor</td><td class="price-val">N1,000,000</td><td class="price-val">N20,000,000</td></tr>
-                        <tr><td>First Floor</td><td class="price-val">N900,000</td><td class="price-val">N18,000,000</td></tr>
-                        <tr><td>Second Floor</td><td class="price-val">N800,000</td><td class="price-val">N16,000,000</td></tr>
-                    </tbody>
-                </table>
-            </div>
-            <div style="flex: 1; min-width: 300px; padding: 30px; background: var(--brand-red); color: #fff; border-radius: 12px;">
-                <h3 style="color: #fff; margin-bottom: 20px;">Payment Plan</h3>
-                <div style="font-size: 32px; font-weight: 800; margin-bottom: 10px;">50% Initial Deposit</div>
-                <p style="font-size: 18px;">Balance spread over 18 months.</p>
-                <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 20px 0;">
-                <h4>Specifications:</h4>
-                <p>Build to finish delivery. Available sizes include 20 sqm and 30 sqm.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="mall-section">
-    <div class="container">
-        <h2 class="text-center" style="border:0; padding:0; margin-bottom: 60px;">Frequently Asked Questions</h2>
-        <div class="faq-container">
-            <div class="faq-item"><h4>Who are the developers?</h4><p>Honatrix Nigeria Limited is the developer while West Marc Nigeria Limited is the promoter of the plaza.</p></div>
-            <div class="faq-item"><h4>When can I schedule a site visit?</h4><p>Site visits can be scheduled for every day of the week. Contact us to fix a perfect timing.</p></div>
-            <div class="faq-item"><h4>What documents do I get after payment?</h4><ul style="padding-left: 20px;"><li>Receipt of purchase (if payment complete)</li><li>Invoice on instalment payment (till balance is completed)</li><li>Letter of offer, stating agreed terms</li><li>Contract of sales</li></ul></div>
-            <div class="faq-item"><h4>What facilities are provided in the Plaza?</h4><p>All en-suite shops, serviced with central security, 24/7 electricity, ample parking lot, easy accessibility, standard international electrical fittings, water treatment, and many more.</p></div>
-            <div class="faq-item"><h4>Other fees to be paid?</h4><p>There are no other charges as the price is all inclusive. However, there will be service charge upon physical allocation.</p></div>
-            <div class="faq-item"><h4>When will shop allocation be done?</h4><p>After final payment, date of completion is 12 months.</p></div>
-        </div>
-    </div>
-</section>
-
-<div class="site-footer">
-    	<div class="container"> 
-           <div class="footer-fix">       
-
-<!-- =============================== Column One - 1 =================================== -->
-			
-            <div class="cols-4">                
-               
-                                
-            <div class="widget-column-1">  
-                 
-                <a href="index.html"><img src="assets/img/honatrix-logo.png" alt="Honatrix" /></a>
-                <p>Real Estate development, civil engineering construction, facility management</p>                <div class="footer-info-dtl">
-			 
-            	<div class="footsocial">
-					                             <a class="fab fa-facebook-f" target="_blank" href="https://www.facebook.com/share/1Co17Zs47G/"></a> 
-                                                
-                                                    <a class="fab fa-instagram" target="_blank" href="https://www.instagram.com/honatrix?utm_source=qr&igsh=MWY4am00a3QxdzRhdQ=="></a> 
-                   </div>                
-               	 <div class="clear"></div>
-                          </div>
-                
-              </div>                  
-			
-           
-             <div class="widget-column-2">   
-				  
-                <h3>Useful Links</h3>            
-	  			   <div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu"><li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-345"><a href="index.html">Home</a></li>
-<li id="menu-item-347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347"><a href="about.html">About</a></li>
-<li class="menu-item"><a href="services.html">Services</a></li>
-<li class="menu-item"><a href="team.html">Our Team</a></li>
-<li class="menu-item"><a href="gallery.html">Gallery</a></li>
-<li id="menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="contact.html">Contact</a></li>
-<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-103 current_page_item menu-item-349"><a href="ut-shopping-mall.html" aria-current="page">UT Mall</a></li>
-</ul></div>                               </div>
-             
-             
-             <div class="widget-column-3"> 
-                                     <h3>Our Services</h3> 
-					<div class="menu-our-services-container"><ul id="menu-our-services" class="menu"><li id="menu-item-340" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340"><a href="services.html#real-estate">Real Estate Development</a></li>
-<li id="menu-item-341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-341"><a href="services.html#luxury-homes">Luxury Homes & Commercial Spaces</a></li>
-<li id="menu-item-342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a href="services.html#civil-engineering">Civil Engineering & Construction</a></li>
-<li id="menu-item-343" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-343"><a href="services.html#investment">Investment Opportunities</a></li>
-</ul></div></div>
-                    <div class="widget-column-4"> 
-                        <h3>Opening Hours</h3> 
-                        <ul>
-                            <li style="margin-bottom: 5px;">Mon - Fri: 9:00 AM - 6:00 PM</li>
-                            <li style="margin-bottom: 5px;">Saturday: 10:00 AM - 4:00 PM</li>
-                            <li style="margin-bottom: 5px;">Sunday: Closed</li>
-                        </ul>
-                    </div><div class="clear"></div>
-            </div>
-                 
-                </div>
-               
-            <div class="clear"></div>
-          </div><!--end .footer-fix-->
-        
-		</div><!--end .container-->
-
- 
-<div class="footer-info-section">
-    <div class="container">
-        <div class="footer-info-box">
-   			<div class="footer-info-dtl"><i class="fas fa-phone-volume"></i>Call Us On<br><a href="telto:+234 705 664 8622">+234 705 664 8622</a></div>
-            <div class="footer-info-dtl"><i class="fas fa-envelope-open-text"></i></i>Email<br><a href="mailto:support@honatrix.com">support@honatrix.com</a></div>
-            <div class="footer-info-dtl"><i class="fas fa-map-marker-alt"></i>Location<p>Suite 47-49 Femi Olomola Plaza, Lagos </p></div>
-       <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </div>
-    
-</div>
         <div class="copyright-wrapper">
-        	<div class="container">
-            
-            	<div class="copyright">
-                <div class="copyright-left">
-  � Copyright <span id="year"></span> Honatrix. All Rights Reserved
-</div>
+            <div class="container">
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script> 
-                
-                <div class="clear"></div>
+                <div class="copyright">
+                    <div class="copyright-left">
+                        © Copyright <span id="year"></span> Honatrix. All Rights Reserved
+                    </div>
+
+                    <script>
+                        document.getElementById("year").textContent = new Date().getFullYear();
+                    </script>
+
+                    <div class="clear"></div>
                 </div>
-            </div> 
-       </div>
-       
-    </div> 
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="back-top">
+        <a href="#top"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+    <script id="jquery-core-js" src="assets/js/jquery.min.js"></script>
+    <script id="Honatrix Nig. Ltd.-pro-navigation-js" src="assets/js/navigation.js"></script>
+    <script>
+        (function () {
+            function revealSite() {
+                var loader = document.getElementById('honatrix-preloader');
+                var site = document.getElementById('SiteWrapper');
+                if (loader) loader.classList.add('fade-out');
+                if (site) site.classList.add('site-visible');
+                if (loader) {
+                    loader.addEventListener('transitionend', function () {
+                        if (loader.parentNode) loader.parentNode.removeChild(loader);
+                    }, { once: true });
+                }
+            }
+            if (document.readyState === 'complete') {
+                revealSite();
+            } else {
+                window.addEventListener('load', revealSite);
+            }
+        })();
+    </script>
 </body>
+
 </html>
-
-
-
-
