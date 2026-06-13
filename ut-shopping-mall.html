@@ -385,120 +385,12 @@
             color: #d1d1d1;
         }
     </style>
-    <style id="honatrix-preloader-css">
-        /* -- Preloader -- */
-        #honatrix-preloader {
-            position: fixed;
-            inset: 0;
-            z-index: 99999;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: #ffffff;
-            transition: opacity 0.6s ease, visibility 0.6s ease;
-        }
 
-        #honatrix-preloader.fade-out {
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-        }
-
-        #honatrix-preloader .pre-logo {
-            max-width: 180px;
-            height: auto;
-            margin-bottom: 36px;
-            animation: preLogoFade 0.8s ease forwards;
-        }
-
-        @keyframes preLogoFade {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Spinner ring */
-        .pre-spinner {
-            width: 56px;
-            height: 56px;
-            border-radius: 50%;
-            border: 4px solid rgba(216, 19, 36, 0.15);
-            border-top-color: #d81324;
-            animation: preSpin 0.85s linear infinite;
-            margin-bottom: 28px;
-        }
-
-        @keyframes preSpin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* Progress bar */
-        .pre-bar-track {
-            width: 200px;
-            height: 3px;
-            background: rgba(216, 19, 36, 0.12);
-            border-radius: 99px;
-            overflow: hidden;
-        }
-
-        .pre-bar-fill {
-            height: 100%;
-            width: 0%;
-            background: linear-gradient(90deg, #d81324, #ff3a4a);
-            border-radius: 99px;
-            animation: preBarFill 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-        }
-
-        @keyframes preBarFill {
-            0% {
-                width: 0%;
-            }
-
-            60% {
-                width: 75%;
-            }
-
-            85% {
-                width: 90%;
-            }
-
-            100% {
-                width: 100%;
-            }
-        }
-
-        /* Hide site wrapper until ready */
-        #SiteWrapper {
-            opacity: 0;
-            transition: opacity 0.5s ease 0.1s;
-        }
-
-        #SiteWrapper.site-visible {
-            opacity: 1;
-        }
-    </style>
 </head>
 
 <body class="page-template elementor-default elementor-kit-9 elementor-page">
 
-    <!-- -- HONATRIX PRELOADER -- -->
-    <div id="honatrix-preloader" role="status" aria-label="Loading Honatrix, please wait">
-        <img class="pre-logo" src="assets/img/honatrix-logo.png" alt="Honatrix" />
-        <div class="pre-spinner"></div>
-        <div class="pre-bar-track">
-            <div class="pre-bar-fill"></div>
-        </div>
-    </div>
-    <!-- -- /PRELOADER -- -->
+
 
     <div id="SiteWrapper">
         <div id="masthead" class="site-header ">
@@ -568,10 +460,7 @@
                                 </button>
                                 <div class="menu-header-container">
                                     <ul id="primary-menu" class="nav-menu">
-                                        <li id="menu-item-296"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-294 current_page_item menu-item-296">
-                                            <a href="index.html" aria-current="page">Home</a>
-                                        </li>
+                                        <li class="menu-item"><a href="index.html">Home</a></li>
                                         <li id="menu-item-298"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298">
                                             <a href="about.html">About</a>
@@ -590,7 +479,10 @@
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303">
                                             <a href="contact.html">Contact</a>
                                         </li>
-                                        <li class="menu-item"><a href="ut-shopping-mall.html">UT Mall</a></li>
+                                        <li id="menu-item-296"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-294 current_page_item menu-item-296">
+                                            <a href="ut-shopping-mall.html" aria-current="page">UT Mall</a>
+
                                     </ul>
                                 </div>
                             </nav><!-- #main-navigation -->
@@ -800,10 +692,7 @@
                             <h3>Useful Links</h3>
                             <div class="menu-useful-links-container">
                                 <ul id="menu-useful-links" class="menu">
-                                    <li id="menu-item-345"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-294 current_page_item menu-item-345">
-                                        <a href="index.html" aria-current="page">Home</a>
-                                    </li>
+                                    <li class="menu-item current-menu-item"><a href="index.html">Home</a>
                                     <li id="menu-item-347"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347">
                                         <a href="about.html">About</a>
@@ -818,7 +707,11 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348">
                                         <a href="contact.html">Contact</a>
                                     </li>
-                                    <li class="menu-item current-menu-item"><a href="ut-shopping-mall.html">UT Mall</a>
+
+                                    <li id="menu-item-345"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-294 current_page_item menu-item-345">
+                                        <a href="ut-shopping-mall.html" aria-current="page">UT Mall</a>
+                                    </li>
                                     </li>
                                 </ul>
                             </div>
@@ -904,8 +797,10 @@
     </div>
 
     <script id="jquery-core-js" src="assets/js/jquery.min.js"></script>
+    <script id="jquery-migrate-js" src="assets/js/jquery-migrate.min.js"></script>
+    <script id="Honatrix Nig. Ltd.-pro-custom-js" src="assets/js/custom.js"></script>
     <script id="Honatrix Nig. Ltd.-pro-navigation-js" src="assets/js/navigation.js"></script>
-    <script>
+    <!-- <script>
         (function () {
             function revealSite() {
                 var loader = document.getElementById('honatrix-preloader');
@@ -924,7 +819,7 @@
                 window.addEventListener('load', revealSite);
             }
         })();
-    </script>
+    </script> -->
 </body>
 
 </html>
