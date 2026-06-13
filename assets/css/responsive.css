@@ -294,7 +294,7 @@ body.blog #tabber-BX {margin-top:0px;}
 .innovations_section {background:#00d1bb !important;}
 .innovations_section::after {display:none;}
 .site-navigation ul.nav-menu > li.header_button a{ margin-left:0px;}
-#testiminials .owl-controls{ position:relative; left:auto; bottom:120px;}
+#testiminials .owl-controls{ position:relative; left:auto; bottom:40px;}
 .hdr-topstrip .infoBx {padding:0px 0px;}
 .footer-info-box .footer-info-dtl:nth-child(1) {width:100%}
 .footer-info-box .footer-info-dtl:nth-child(2), .footer-info-box .footer-info-dtl:nth-child(3), .footer-info-box .footer-info-dtl:nth-child(4), .footer-info-box .footer-info-dtl:nth-child(5) {width: 100%;}
@@ -302,8 +302,31 @@ body.blog #tabber-BX {margin-top:0px;}
 
 .hdr-topstrip .container {padding:0px 0px 0px 0%;}
 .heade-top-area-mail {padding-left:0px;}
-.testimonial-content p {font-size:20px;}
-.testiminials .owl-controls .owl-dots{bottom:-120px;}
+.testimonial-content p {font-size:18px; line-height: 1.5;} /* Adjusted for mobile */
+.testiminials .owl-nav {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    display: block !important;
+}
+.testiminials .owl-nav .owl-prev, 
+.testiminials .owl-nav .owl-next {
+    position: static !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    background: rgba(255,255,255,0.1) !important;
+    color: #fff !important;
+    margin: 0 10px !important;
+    border-radius: 5px;
+}
+.testiminials .owl-controls .owl-dots{
+    position: relative;
+    bottom: 0;
+    margin-top: 15px;
+    text-align: center;
+}
 .newsInfo h3 a {font-size:22px;}
 .NewsBox:nth-child(1) .newsThumb{ height:inherit;}
 .newsInfo{ padding:25px; width:100%; padding-top:35px;}
