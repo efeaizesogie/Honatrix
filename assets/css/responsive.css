@@ -678,7 +678,30 @@ margin:0 auto;
 .footer_info_box{ width:100%; padding:15px 0px;}
 .footer_time_info .footer_info_box:nth-child(3){float: left; width:100%; padding-left:0px; background:transparent !important;}
 .footer_time_info .footer_info_box:nth-child(3)::before, .footer_time_info .footer_info_box:nth-child(3)::after{ display:none;}
-
+    /* Individual Team Member Profiles */
+    .profile-details {
+        padding: 40px 15px !important;
+    }
+    .profile-details .cols-2 {
+        gap: 30px !important;
+    }
+    .profile-info h1 {
+        font-size: 28px !important;
+        text-align: center;
+    }
+    .profile-info .designation {
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    .profile-img {
+        text-align: center;
+    }
+    .profile-img img {
+        max-width: 100% !important;
+    }
+    .LayoutContent-80 {
+        width: 100% !important;
+    }
 }
 @media screen and (min-width:1210px) { 
 .boxlayout .site-header.fixed{ width:1210px; margin:0 auto;}
