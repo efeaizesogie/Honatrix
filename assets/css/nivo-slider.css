@@ -242,22 +242,23 @@ a.nivo-prevNav:before{content: "\f060";}
 	}
 	.nivo-caption h2 {
 		font-size: 26px;
-		margin-bottom: 8px;
+		margin-bottom: 20px; /* Increased from 8px */
 	}
 	.nivo-caption p {
 		font-size: 13px;
-		margin-bottom: 16px;
+		margin-bottom: 25px; /* Increased from 16px */
 	}
 	.nivo-caption .slidermorebtn {
 		padding: 10px 20px;
 		font-size: 13px;
+		margin-top: 10px; /* Added spacing above buttons */
 	}
 }
 
 /* Small phones */
 @media screen and (max-width: 480px) {
 	.HomepageSlider {
-		height: 280px;
+		height: 320px;
 	}
 	.nivo-caption {
 		width: 90%;
@@ -265,15 +266,17 @@ a.nivo-prevNav:before{content: "\f060";}
 	.nivo-caption h2 {
 		font-size: 19px;
 		line-height: 1.25;
+		margin-bottom: 15px; /* Added more space */
 	}
 	.nivo-caption p {
 		display: block; /* show paragraph on small screens */
 		font-size: 11px;
 		line-height: 1.4;
-		margin-bottom: 10px;
+		margin-bottom: 20px; /* Increased from 10px */
 	}
 	.nivo-caption .slidermorebtn {
-		padding: 8px 16px;
+		padding: 10px 18px; /* Slightly larger padding */
 		font-size: 12px;
+		margin-top: 10px; /* Added spacing above buttons */
 	}
 }
