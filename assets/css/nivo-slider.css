@@ -267,7 +267,10 @@ a.nivo-prevNav:before{content: "\f060";}
 		line-height: 1.25;
 	}
 	.nivo-caption p {
-		display: none; /* hide paragraph on very small screens to avoid overflow */
+		display: block; /* show paragraph on small screens */
+		font-size: 11px;
+		line-height: 1.4;
+		margin-bottom: 10px;
 	}
 	.nivo-caption .slidermorebtn {
 		padding: 8px 16px;
