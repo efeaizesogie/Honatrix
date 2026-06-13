@@ -1,8 +1,11 @@
 ﻿/* --- Global Mobile Overflow & Zoom Fixes --- */
-html, body { width: 100%; overflow-x: hidden; position: relative; }
+/* html, body { width: 100%; overflow-x: hidden; position: relative; }
 #SiteWrapper { width: 100%; overflow-x: hidden; position: relative; }
 .e-con-inner, .e-con, .elementor-shortcode { max-width: 100vw !important; overflow: hidden !important; }
-#testiminials, .testiminials { width: 100% !important; overflow: hidden !important; }
+ */
+
+
+ #testiminials, .testiminials { width: 100% !important; overflow: hidden !important; }
 
 /* Mobile Portrait View */
 @media screen and (max-width:767px) {
@@ -283,6 +286,7 @@ body.blog #tabber-BX {margin-top:0px;}
 .elementor-shortcode { display: flex !important; flex-wrap: wrap !important; }
 .team-inner {width:50% !important; padding:10px !important; float: none !important;}
 .team-inner-box {margin-bottom: 20px; height: 100%;}
+.team-image-area .team-thumb {height:auto;}
 .team-inner .team-thumb img {width:100% !important; height:auto !important;}
 .innovations_list .elementor-icon-list-item {width:100%;}
 .skill_video {position:relative !important; top:auto !important; left:-30px; margin-top:-40px;}
